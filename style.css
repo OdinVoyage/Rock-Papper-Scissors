@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+}
+
+button{
+  background-color: lightblue;
+  color: black;
+  outline: none;
+  border: none;
+}
+
