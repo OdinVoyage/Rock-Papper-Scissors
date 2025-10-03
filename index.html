@@ -10,7 +10,26 @@
 
 <body>
     <h1>Rock Papper Scissors</h1>
-    <button id="prompt" onclick=playGames()>Mulai</button>
+    <main>
+        <button id="start" onclick=playGames()>Mulai</button>
+        <div id="game">
+            <div id="choice">
+                <button onclick="playRound('rock')">Rock</button>
+                <button onclick="playRound('paper')">Paper</button>
+                <button onclick="playRound('scissors')">Scissors</button>
+            </div>
+            <div id="result">
+                <p id="log">
+                    <span id="span-1"></span>
+                    <span id="span-2"></span>
+                    <span id="span-3"></span>
+                    <span id="span-4"></span>
+                    <span id="span-5"></span>
+                </p>
+                <p id="log-match"></p>
+            </div>
+        </div>
+    </main>
     <script src="main.js">
     </script>
 </body>

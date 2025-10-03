@@ -6,10 +6,18 @@ body {
   background-color: lightblue;
 }
 
-button{
+#start{
   background-color: lightblue;
   color: black;
-  outline: none;
-  border: none;
+  margin-bottom: 10px
 }
+
+#log {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* jarak antar span */
+  font-family: monospace;
+  white-space: pre-line;
+}
+
 
